@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style/div.css">
     <link rel="stylesheet" href="style/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script/log.js"></script>
+    <script src="script/style.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +29,7 @@
 
                 <p>Seja bem-vinda. Faça seu login diário</p>
 
-                <form action="pag2.html" method="post" autocomplete="on">
+                <form autocomplete="on">
 
                     <div class="campo">
                         <span class="material-symbols-outlined">spa</span>
@@ -41,7 +43,7 @@
                         <label for="isenha">Senha</label>
                     </div>
 
-                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Entrar" onclick="logar(); return false">
                     <a href="esqueci.html" class="botao">Esqueci a senha <span class="material-symbols-outlined">email</span></a>
 
                 </form>
