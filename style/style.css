@@ -37,6 +37,7 @@ section#login{
     transition: width .5s, heigth .5s;
     transition-timing-function: ease;
 }
+
 section#login > div#imagem{
     display: block;
     background: url(../images/principal.jpg) no-repeat center top; 
