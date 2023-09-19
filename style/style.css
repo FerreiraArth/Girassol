@@ -40,7 +40,7 @@ section#login{
 
 section#login > div#imagem{
     display: block;
-    background: url(../images/principal.jpg) no-repeat center top; 
+
     background-size: cover;
     height: 220px;
 }
@@ -124,3 +124,14 @@ form > a.botao:hover {
 form > a.botao > span {
     font-size: 1em;
 }
+
+.morning {
+    background: url(../images/principal-manha.jpg) no-repeat center top;
+  }
+.night {
+    background: url(../images/principal-noite.jpg) no-repeat center bottom;
+  }
+.afternoon {
+    background: url(../images/principal-tarde.jpg) no-repeat center bottom;
+}
+  

@@ -3,12 +3,13 @@ function carregar(){
     var data = new Date()
     var hora = data.getHours()
 
+    const imag = document.querySelector('.background')
+
     if (hora >= 5 && hora < 12){
-        img.background.url = '../images/principal-manha.jpg'
+        imag.classList.add('morning')
     } else if (hora >= 12 && hora < 18 ){
-        document.body.style.background.url = '(../images/van.jpg)'
-        
+        imag.classList.add('afternoon')        
     } else  {
-        img.src = '../images/principal-noite.jpg'
+        imag.classList.add('night')   
     }
 }

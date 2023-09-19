@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 725px) and (max-width: 992px) {
     body {
-        background: url(../images/background-manha.jpg);
+        /* background: url(../images/background-manha.jpg); */
         background-size: cover
     }
     
@@ -24,7 +24,7 @@
 @media screen and (min-width: 992px){
 
     body {
-        background: url(../images/background-tarde.jpg) no-repeat center center;
+        /* background: url(../images/background-tarde.jpg) no-repeat center center; */
         background-size: cover;
     }
     section#login {
