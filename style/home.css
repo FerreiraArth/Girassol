@@ -20,17 +20,10 @@ main {
     height: 100vh;
 }
 
-header {
-    text-align: center;
-    color: black;
-    background-color: var(--cblue);
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-}
-
-section#poem {
+section#content {
     position: absolute;
+    width: 60vw;
+    height: 400px;
     left: 50%;
     top: 50%;
     background: var(--yel);
@@ -40,5 +33,20 @@ section#poem {
 
 
     transform: translate(-50%, -50%);
+}
+
+div#fixo {
+    text-align: center;
+    background-color: var(--cblue);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 25px
+}
+
+div#poem > h2 {
+    margin-bottom: 10px;
+}
+div#poem > p {
+    text-indent: 2em;
 }
 
