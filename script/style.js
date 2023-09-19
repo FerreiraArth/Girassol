@@ -3,8 +3,6 @@ function carregar(){
     var data = new Date()
     var hora = data.getHours()
 
-    var hora = 15
-
     const imag = document.querySelector('.background')
 
     const bodyElement = document.body
