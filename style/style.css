@@ -8,7 +8,8 @@
 }
 
 body, html {
-    background-color: var(--yel);
+    background: url(../images/background-noite.jpg) center center no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     color: var(--dyel);
