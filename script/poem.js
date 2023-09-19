@@ -2,8 +2,6 @@ function carregar() {
     var data = new Date()
     var dia = data.getDay()
 
-    dia = 0
-
     if (dia == 0) {
         subtitulo.innerHTML = `<h2>Amor</h2> <br>`
         texto.innerHTML = `<p>é o resumo do infinito. é o laço entre dois corações. é um sorriso frouxo demais. é quando a gente escuta o mundo inteiro no silêncio de alguém. é o ópio do coração. é um cafuné bem feito, é encontrar um lar em outro peito.
