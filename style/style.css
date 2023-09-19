@@ -134,4 +134,16 @@ form > a.botao > span {
 .afternoon {
     background: url(../images/principal-tarde.jpg) no-repeat center bottom;
 }
-  
+
+.bodymorning {
+    background: url(../images/background-manha.jpg) center center no-repeat;
+    background-size: cover
+  }
+.bodynight {
+    background: url(../images/background-noite.jpg) center center no-repeat;
+    background-size: cover
+  }
+.bodyafternoon {
+    background: url(../images/background-tarde.jpg) center center no-repeat;
+    background-size: cover
+}
