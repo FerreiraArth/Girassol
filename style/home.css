@@ -21,7 +21,7 @@ main {
 
 section#content {
     position: absolute;
-    width: 400px;
+    width: 60vw;
     min-height: 430px;
     left: 50%;
     top: 50%;
