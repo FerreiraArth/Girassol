@@ -21,8 +21,8 @@ main {
 
 section#content {
     position: absolute;
-    width: 60vw;
-    height: 430px;
+    max-width: 400px;
+    min-height: 430px;
     left: 50%;
     top: 50%;
     background: var(--yel);
