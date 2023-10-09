@@ -16,6 +16,8 @@ body, html {
 }
 
 main {
+    background-color: #0000001a;
+    backdrop-filter: blur(4px);
     position: relative;
     height: 100vh;
     width: 100vw;
