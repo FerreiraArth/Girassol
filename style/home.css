@@ -7,15 +7,16 @@
 }
 
 body, html {
-    background: url('../images/van.jpg') center center no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     height: 100vh;
     width: 100vw;
+    background: url('../images/van1.jpeg')
 }
 
 main {
-    background-color: hsla(0, 0%, 100%, 0.1);
-    backdrop-filter: blur(1.9px);
+    background: url('../images/van.jpg') center center no-repeat;
+    background-color: hsla(0, 0%, 100%, 0.212);
+    backdrop-filter: blur(5px);
     position: relative;
     width: 100vw;
     height: 100vh;
