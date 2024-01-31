@@ -9,7 +9,7 @@ function carregar() {
         <br>
         <br>
         
-        às vezes tem quatro patas e um focinho. às vezes tem nome, e quando vai embora....</p> `
+        às vezes tem quatro patas e um focinho. Às vezes tem nome, e quando vai embora....</p> `
     } else if (dia == 1) {
         subtitulo.innerHTML = `<h2>Inefável</h2> <br>`
         texto.innerHTML = `<p>é encontrar alguém disposto a se entregar no meio desse mundo de pessoas desinteressadas e com medo de se apaixonar. é aquela viagem de fim de ano com a pessoa certa que a gente esperou tanto para poder fazer. é como se chamam dias bons demais para serem descritos.
