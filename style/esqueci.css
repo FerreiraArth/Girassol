@@ -7,11 +7,17 @@
     font-size: larger;
 }
 
-body, html {
+body {
     background: url('../images/van.jpg') center center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(71, 71, 71, 0.377);
+    backdrop-filter: blur(5px);
 }
 
 section#content {
@@ -25,8 +31,8 @@ section#content {
     border-radius: 20px;
     padding: 15px;
     box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.5);
-
-
+    
+    
     transform: translate(-50%, -50%);
 }
 
