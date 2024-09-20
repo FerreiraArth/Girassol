@@ -1,6 +1,6 @@
 function carregar() {
-    var data = 3
-    var dia = data.getDay()
+    var data = new Date()
+    var dia = 3
 
     if (dia == 0) {
         subtitulo.innerHTML = `<h2>Amor</h2> <br>`
